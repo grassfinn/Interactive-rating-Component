@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="/interactive-rating-component-main/images/favicon-32x32.png" type="image/x-icon">
+    <title>Interactive Rating Card</title>
+</head>
+<body>
+    <div class="container">
+        <section id="rating-card">
+            <button class="circle">    
+                <img src="/interactive-rating-component-main/images/icon-star.svg" alt="Star">
+            </button>
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <form class="form">
+                <div class="rating-buttons">
+                    <input type="radio" id="1" class="radio-button" name="rating " value="1" />
+                    <label tabindex="0" class="rating-button" for="1">1</label>
+                    <input type="radio" id="2" class="radio-button" name="rating " value="2" />
+                    <label tabindex="0" class="rating-button" for="2">2</label>
+                    <input type="radio" id="3" class="radio-button" name="rating " value="3" />
+                    <label tabindex="0" class="rating-button" for="3">3</label>
+                    <input type="radio" id="4" class="radio-button" name="rating " value="4" />
+                    <label tabindex="0" class="rating-button" for="4">4</label>
+                    <input type="radio" id="5" class="radio-button" name="rating " value="5" />
+                    <label tabindex="0" class="rating-button" for="5">5</label>
+                </div>
+                
+                <div class="submit">
+                    <button id="submit-button">SUBMIT</button>
+                </div>
+        </div>
+        </section>
+            </form>
+            <!-- <section>
+                <img src="/interactive-rating-component-main/images/illustration-thank-you.svg" alt="Credit Swipe">
+                <p> You Selected 4 out of 5</p>
+                <h2>Thank You!</h2>
+                <p>We appreciate you taking the time to give rating. if you ever need more support, don't hesitate to get in touch!</p>
+            </section> -->
+    <script src="./app.js"></script>
+</body>
+</html>
